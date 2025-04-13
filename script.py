@@ -1,13 +1,13 @@
-
+#first def
 def faktorial(n):
     value = float(1)
     for i in range(1, n+1):
         value = value * i
     return value
-
+#second def
 def powr(x,y):
     return x**y
-
+#third
 def sin_1(degree):
     if(degree == 0):
         print("The sin of degree(0)= 0")
@@ -59,3 +59,4 @@ def cos_1(degree):
 
         return value
 
+cos_1(0)
